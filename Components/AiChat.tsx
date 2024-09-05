@@ -17,7 +17,7 @@ const ChatScreen: React.FC<ChatScreenProps> = ({ userId }) => {
 
     // Initialize Google Gemini AI API
     async function initializeGeminiAPI() {
-        const API_KEY = 'AIzaSyAO0IVlX0zMpFBd8ZLrkAj_WaMkHUffkNg'; // Replace with actual API key
+        const API_KEY = 'gemniapi; // Replace with actual API key
         const genAIInstance = new GoogleGenerativeAI(API_KEY);
         setGenAI(genAIInstance);
     }
